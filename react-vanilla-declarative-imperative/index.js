@@ -18,3 +18,6 @@ app.append(h1);
 
 // **DECLARATIVE WAY** $ONE LINE$
 ReactDOM.createRoot(document.getElementById('app-declarative')).render(<h1 className='header'>Declarative WAY!</h1>)
+
+// AUTHOR
+ReactDOM.createRoot(document.getElementById('app-author')).render(<small>Created by Васкеза~Каприн.</small>)
