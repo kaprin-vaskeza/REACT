@@ -1,4 +1,4 @@
-function NavBar(){
+function NavBarComponent(){
     return(
         <div className='menu'>
             <div>Home</div>
@@ -14,7 +14,7 @@ function MainComponent(){
     )
 }
 
-function Footer(){
+function FooterComponent(){
     return(
         <small>Created by Васкеза~Каприн.</small>
     )
@@ -24,8 +24,8 @@ const page = ReactDOM.createRoot(document.getElementById('page'));
 
 page.render(
     <React.Fragment>
-        <NavBar/>
+        <NavBarComponent/>
         <MainComponent/>
-        <Footer/>
+        <FooterComponent/>
     </React.Fragment>
 )
